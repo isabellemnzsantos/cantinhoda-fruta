@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './componentes/Navbar.js'
 import React from 'react'
 import Botao from './componentes/Botao.js'
-import Fam from './componentes/Fam'
+import Fam from './componentes/Fam1.js'
 import Textos from './componentes/Textos'
 
 

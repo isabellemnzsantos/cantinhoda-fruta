@@ -1,7 +1,7 @@
 import React from 'react';
 import './fam.css'; // Importa o arquivo de estilos CSS
 
-function Fam() {
+function Fam1() {
   return (
     <div className="yellow-background">
     <div className="image-overlay"></div>
@@ -10,4 +10,4 @@ function Fam() {
   );
 }
 
-export default Fam;
+export default Fam1;
