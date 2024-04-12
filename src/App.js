@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Navbar from './componentes/Navbar.js'
+import React from 'react'
+import Botao from './componentes/Botao.js'
+import Fam from './componentes/Fam'
+import Textos from './componentes/Textos'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <header>
+      <div className="App">
+        <Navbar/>
+      </div>
+      <div className='FAmarelo'>
+       <Fam />
+      </div>
+      <div className='n1'>
+        <Textos/>
+      </div>
+      <div className='Botao'>
+        <Botao/>
+      </div>
+    </header>
   );
 }
 

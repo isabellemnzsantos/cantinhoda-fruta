@@ -1,0 +1,20 @@
+.yellow-button {
+    background-color: #FBE97C;
+    color: #80BA03;
+    font-size: 38px;
+    font-style: bold;
+    font-family: 'Roboto';
+    padding: 25px 45px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    position: relative;
+    margin-left: 350px;
+    top: -400px;
+}
+
+.yellow-button:hover{
+    background-color: #ffee00fd;
+    color: #80BA03;
+}

@@ -1,0 +1,24 @@
+.yellow-background {
+    background-color: #FBE97C;
+    /* Outras propriedades de estilo conforme necessário */
+    width: 800px;
+    height: 1300px; /* Altura de exemplo */
+    position: relative;
+    margin-top: -250px;
+    margin-left: 1350px;    
+  }
+
+
+  .image-overlay {
+    position: absolute;
+    top: 300px;
+    left: -250px;
+    width: 65%;
+    height: 65%;
+    background-image: url('../assets/cf.png');
+    background-size: cover; /* Para cobrir toda a área da div */
+    background-position: center; /* Para centralizar a imagem */
+    opacity: 1; /* Opacidade da imagem */
+    /* Z-index pode ser usado para controlar a sobreposição de elementos */
+  }
+  
